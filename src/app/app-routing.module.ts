@@ -17,6 +17,26 @@ const routes: Routes = [
   {
     path: 'dados-filme',
     loadChildren: () => import('./dados-filme/dados-filme.module').then( m => m.DadosFilmePageModule)
+  },
+  {
+    path: 'vanquish',
+    loadChildren: () => import('./Filmes/vanquish/vanquish.module').then( m => m.VanquishPageModule)
+  },
+  {
+    path: 'the-virtuoso',
+    loadChildren: () => import('./Filmes/the-virtuoso/the-virtuoso.module').then( m => m.TheVirtuosoPageModule)
+  },
+  {
+    path: 'godzilla-kong',
+    loadChildren: () => import('./Filmes/godzilla-kong/godzilla-kong.module').then( m => m.GodzillaKongPageModule)
+  },
+  {
+    path: 'buffalo-boys',
+    loadChildren: () => import('./Filmes/buffalo-boys/buffalo-boys.module').then( m => m.BuffaloBoysPageModule)
+  },
+  {
+    path: 'cruella',
+    loadChildren: () => import('./Filmes/cruella/cruella.module').then( m => m.CruellaPageModule)
   }
 ];
 @NgModule({

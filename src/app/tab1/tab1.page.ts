@@ -32,6 +32,52 @@ export class Tab1Page {
       cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dkokENeY5Ka30BFgWAqk14mbnGs.jpg',
       generos: ['Família', 'Animação', 'Comédia'],
       pagina: '/pets-monstruosos'
+    },
+    {
+      nome: 'Buffalo Boys (2018)',
+      lancamento: '11/01/2019',
+      duracao: '1h 43m',
+      classificacao: 69,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/o1Bn2zlIDJSnM5aOljbOPTM6Kf9.jpg',
+      generos: ['Drama', 'Ação'],
+      pagina: '/buffalo-boys'
+    },
+    {
+      nome: 'Cruella (2021)',
+      lancamento: '28/05/2021',
+      duracao: '2h 14m',
+      classificacao: 88,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ljPHd7WiPVKmuXi1hgQUpZQslbC.jpg',
+      generos: ['Comédia', 'Crime'],
+      pagina: '/cruella'
+    },
+    {
+      nome: 'Vanquish (2021)',
+      lancamento: '16/04/2021',
+      duracao: '1h 36m',
+      classificacao: 60,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1jkNM1NHyHsxiBBuOlOeqgmidM0.jpg',
+      generos: ['Comédia', 'Crime'],
+      pagina: '/vanquish'
+    }
+    ,
+    {
+      nome: 'The Virtuoso (2021)',
+      lancamento: '30/04/2021',
+      duracao: '1h 45m',
+      classificacao: 64,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vXHzO26mJaOt4VO7ZFiM6No5ScT.jpg',
+      generos: ['Thriller', 'Ação', 'Crime'],
+      pagina: '/the-virtuoso'
+    },
+    {
+      nome: 'Godzilla vs. Kong (2021)',
+      lancamento: '01/04/2021',
+      duracao: '01/04/2021',
+      classificacao: 60,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wllzjZxg4ynlAm5xmOICJ2uHOPJ.jpg',
+      generos: ['Ação', 'Ficção científica'],
+      pagina: '/godzilla-kong'
     }
   ];
 
