@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { VanquishPageRoutingModule } from './vanquish-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { VanquishPage } from './vanquish.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    VanquishPageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [VanquishPage]
+  declarations: [LoginPage]
 })
-export class VanquishPageModule {}
+export class LoginPageModule {}
