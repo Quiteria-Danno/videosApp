@@ -21,8 +21,7 @@ export class FilmeService {
 
   buscarFilmes(busca: string ): Observable<IListaFilmes>{
     const url = `${this.apiURL}search/movie${this.key}&language=${this.lingua}&region=${this.regiao}&query=${busca}`;
-
-    return this.http.get<IListaFilmes>(url).pipe(
+      return this.http.get<IListaFilmes>(url).pipe(
       map(retorno => retorno),
       catchError(erro => this.exibirErro(erro))
     );
