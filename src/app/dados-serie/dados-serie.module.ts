@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
-import { LoginPageRoutingModule } from './login-routing.module';
-import { LoginPage } from './login.page';
+
+import { DadosSeriePageRoutingModule } from './dados-serie-routing.module';
+
+import { DadosSeriePage } from './dados-serie.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    LoginPageRoutingModule,
+    DadosSeriePageRoutingModule
   ],
-  declarations: [LoginPage]
+  declarations: [DadosSeriePage]
 })
-export class LoginPageModule {}
-
+export class DadosSeriePageModule {}

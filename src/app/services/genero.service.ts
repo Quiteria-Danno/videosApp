@@ -32,7 +32,7 @@ export class GeneroService {
       message: 'Erro ao consultar a API!',
       duration: 2000,
       color: 'danger',
-      position: 'middle'
+      position: 'middle',
     });
     toast.present();
     return null;
