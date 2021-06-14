@@ -26,11 +26,10 @@
           <div>
             <h1>{{serie.name}}</h1>
             <p>{{serie.first_air_date | date: 'shortDate'}} </p>
-            <p>{{serie.original_language}}</p>
 
 
-            <ion-badge color="light" *ngFor="let idGenero of serie.genre_ids"
-              >
+
+            <ion-badge color="light" *ngFor="let idGenero of serie.genre_ids">
               {{generosSerie[idGenero]}}
             </ion-badge>
 
